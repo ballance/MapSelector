@@ -1,0 +1,31 @@
+<html>
+<head>
+	<title>Blue Stream Environmental - Map Picker</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" type="text/css" href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.6.0/mapbox-gl.css" />
+	<script type="text/javascript" src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.6.0/mapbox-gl.js"></script>
+
+</head>
+<body>
+	<div id="map"></div>
+<div id="menu">
+	<input
+		id="streets-v11"
+		type="radio"
+		name="rtoggle"
+		value="streets"
+		checked="checked"
+	/>
+	<label for="streets">streets</label>
+	<input id="satellite-v9" type="radio" name="rtoggle" value="satellite" />
+	<label for="satellite">satellite</label>
+</div>
+
+	<pre id="coordinates" class="coordinates"></pre>
+
+	<div id="hiddenlat" class="hiddenlat"></div>
+	<div id="hiddenlon" class="hiddenlon"></div>
+
+	<script src="map.js"></script>
+</body>
+</html>

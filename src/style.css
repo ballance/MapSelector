@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+#menu {
+  position: absolute;
+  background: #fff;
+  padding: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+.coordinates {
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  position: absolute;
+  bottom: 40px;
+  left: 10px;
+  padding: 5px 10px;
+  margin: 0;
+  font-size: 11px;
+  line-height: 18px;
+  border-radius: 3px;
+  display: none;
+}
+
+.hiddenlat {
+  background: rgba(128, 0, 0, 0.5);
+  color: #ccc;
+  position: absolute;
+  bottom: 100px;
+  left: 10px;
+  padding: 5px 10px;
+  margin: 0;
+  font-size: 11px;
+  line-height: 18px;
+  border-radius: 3px;
+  display: none;
+}
+
+.hiddenlon {
+  background: rgba(128, 0, 0, 0.5);
+  color: #ccc;
+  position: absolute;
+  bottom: 140px;
+  left: 10px;
+  padding: 5px 10px;
+  margin: 0;
+  font-size: 11px;
+  line-height: 18px;
+  border-radius: 3px;
+  display: none;
+}
